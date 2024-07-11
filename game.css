@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+.container {
+  height: 600px;
+  width: 700px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+.btn {
+  height: 250px;
+  width: 250px;
+  border: 10px solid grey;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.orange {
+  background-color: orange;
+}
+.pink {
+  background-color: pink;
+}
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+}
+
+.flash {
+  background-color: white;
+}
+.userFlash {
+  background-color: rgb(35, 234, 35);
+}
+.endGame {
+  background-color: red;
+}
