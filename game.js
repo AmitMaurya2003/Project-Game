@@ -10,7 +10,7 @@ let h2 = document.querySelector("h2");
 let h1 = document.querySelector("h1");
 
 document.addEventListener("keypress", function () {
-    rightSound();
+  rightSound();
   if (started == false) {
     console.log("game started");
     started = true;
@@ -52,7 +52,7 @@ for (btn of btns) {
 }
 
 function pressBtn(btn) {
-    rightSound();
+  rightSound();
   let currBtn = this;
   userFlash(currBtn);
   currBtnColor = currBtn.getAttribute("id");
@@ -86,8 +86,8 @@ function rightSound() {
 }
 
 function wrongSound() {
-    let song = new Audio("./assets/buzzer-or-wrong.mp3");
-    song.play();
+  let song = new Audio("./assets/buzzer-or-wrong.mp3");
+  song.play();
 }
 
 function resetGame() {
