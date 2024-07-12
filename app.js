@@ -68,6 +68,15 @@ function checkIdx(index) {
     }
   } else {
     wrongSound();
+    if (level < 5) {
+      h1.innerText = "Well Played. Play again to increase your level.";
+    }
+    if (level >= 5 && level < 10) {
+      h1.innerText = `Nice Played. Play again to increase your level more than ${level}`;
+    }
+    if (level >= 10) {
+      h1.innerText = "Excellent! Play again to increase your level";
+    }
     h2.innerText = `Game Over : Your highest level is ${level}`;
     h1.style.color = "black";
     h2.style.color = "black";

@@ -16,6 +16,12 @@ h1 {
 h2 {
   color: #ffff;
 }
+@media (min-width: 800px) {
+  .inp {
+    display: none;
+  }
+}
+
 .btn {
   height: 250px;
   width: 250px;
